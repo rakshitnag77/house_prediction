@@ -30,7 +30,7 @@ st.markdown(
 st.markdown("<h1>ALBERTA HOUSE PREDICTION</h1>", unsafe_allow_html=True)
 
 # Load your dataset
-df = pd.read_csv(r"C:\Users\B Rakshit Nag\OneDrive\Desktop\WQ HOUSE_PRED\archive\House Price India.csv")
+df = pd.read_csv("House Price India.csv")
 
 # Streamlit layout: 2 columns (Map | Filters)
 col1, col2 = st.columns([3, 1], gap="large")
